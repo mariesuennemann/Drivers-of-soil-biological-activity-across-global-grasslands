@@ -4,7 +4,7 @@
 ## Figure 1: Treatment effects on soil detritivore and microbial activity ##
 
 # Model bait lamina test
-detritivores <- lmer(Bait lamaina test ~ NPK * Exclosure * Years of treatment + (1|site_code/block) + (1|days_inserted), data=data)
+detritivores <- lmer(Bait lamina test ~ NPK * Exclosure * Years of treatment + (1|site_code/block) + (1|days_inserted), data=data)
 anova(detritivores)
 
 # Model microbial activity
