@@ -24,3 +24,5 @@ nutnet.sem1 <- psem(
 )
 
 summary(nutnet.sem1)
+
+## The plot was made manually using Inkshape
